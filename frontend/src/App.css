@@ -1,0 +1,117 @@
+.layout {
+  min-height: 100vh;
+}
+
+.header {
+  background: #001529;
+  padding: 0 20px;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.header-content h1 {
+  color: white;
+  margin: 0;
+  font-size: 20px;
+}
+
+.user-info {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.content {
+  padding: 20px;
+  background: #f0f2f5;
+}
+
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+
+.login-card {
+  width: 400px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chat-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.chat-card {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.chat-messages {
+  height: 500px;
+  overflow-y: auto;
+  border: 1px solid #d9d9d9;
+  border-radius: 6px;
+  padding: 16px;
+  margin-bottom: 16px;
+  background: #fafafa;
+}
+
+.message-item {
+  border: none !important;
+  padding: 12px 0 !important;
+  border-bottom: 1px solid #f0f0f0 !important;
+}
+
+.message-item:last-child {
+  border-bottom: none !important;
+}
+
+.ai-response {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin-top: 8px;
+  padding: 12px;
+  background: white;
+  border-radius: 6px;
+  border: 1px solid #e8e8e8;
+}
+
+.response-header {
+  font-weight: bold;
+  margin-bottom: 4px;
+  color: #1890ff;
+}
+
+.response-content {
+  flex: 1;
+}
+
+.chat-input {
+  margin-top: 16px;
+}
+
+/* 滚动条样式 */
+.chat-messages::-webkit-scrollbar {
+  width: 6px;
+}
+
+.chat-messages::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 3px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb {
+  background: #c1c1c1;
+  border-radius: 3px;
+}
+
+.chat-messages::-webkit-scrollbar-thumb:hover {
+  background: #a8a8a8;
+}
